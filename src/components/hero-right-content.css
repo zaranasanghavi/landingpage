@@ -1,0 +1,108 @@
+.brand-pattern-wave,
+.rectangle2 {
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+}
+.brand-pattern-wave {
+  width: 946px;
+  right: -318px;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.rectangle2 {
+  width: 100%;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-royalblue);
+}
+.start-project-now {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-whitesmoke);
+  text-align: center;
+  z-index: 1;
+}
+.button-solid-rounded-large,
+.hero-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button-solid-rounded-large {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-5xl) var(--padding-mid)
+    var(--padding-6xl);
+  background-color: transparent;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.hero-buttons {
+  align-self: stretch;
+}
+.rectangle3 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xl);
+  border: 1px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+}
+.start-project-now1 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-royalblue);
+  text-align: center;
+  display: inline-block;
+  min-width: 99px;
+  z-index: 1;
+}
+.button-outline-rounded-larg {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-5xl) var(--padding-mid)
+    var(--padding-6xl);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+  margin-top: -56px;
+}
+.hero-right-content {
+  height: 784px;
+  width: 628px;
+  margin: 0 !important;
+  position: absolute;
+  right: -182px;
+  bottom: -500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-110xl) var(--padding-214xl) var(--padding-110xl)
+    var(--padding-34xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}

@@ -1,0 +1,217 @@
+.group-icon,
+.rectangle {
+  align-self: stretch;
+  position: relative;
+}
+.rectangle {
+  height: 86px;
+  background-color: var(--color-white);
+  display: none;
+}
+.group-icon {
+  height: 36px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.group-wrapper {
+  width: 162px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-15xl) 0 0;
+  box-sizing: border-box;
+}
+.why-use-agent {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  color: inherit;
+  white-space: nowrap;
+  z-index: 1;
+}
+.why-use-agent-titles {
+  width: 139px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.brand-icons-outline-drop {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.brand-icons-outline-drop-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-lgi) 0 0;
+}
+.our-team,
+.solution {
+  text-decoration: none;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  color: inherit;
+  z-index: 1;
+}
+.our-team {
+  flex: 1;
+  white-space: nowrap;
+}
+.solution {
+  width: 81px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-wrapper,
+.our-team-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.our-team-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-4xs);
+}
+.frame-wrapper {
+  width: 215px;
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-7xl) 0 0;
+  box-sizing: border-box;
+}
+.faq {
+  text-decoration: none;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 31px;
+  z-index: 1;
+}
+.why-use-agent-titles1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contact-sales {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  color: inherit;
+  white-space: nowrap;
+  z-index: 1;
+}
+.why-use-agent-titles2 {
+  width: 154px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+}
+.rectangle1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-royalblue);
+}
+.start-a-project {
+  text-decoration: none;
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 108px;
+  z-index: 1;
+}
+.button-solid-rounded-small {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-6xl) var(--padding-xs);
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+  font-size: var(--font-size-sm);
+  color: var(--color-whitesmoke);
+}
+.frame-parent,
+.navbar-light-style-1-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  flex: 1;
+  justify-content: flex-start;
+}
+.navbar-light-style-1-inner {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-57xl) 0 var(--padding-58xl);
+  box-sizing: border-box;
+}
+.navbar-light-style-1,
+.path-2-icon {
+  align-self: stretch;
+  overflow: hidden;
+  max-width: 100%;
+}
+.path-2-icon {
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.navbar-light-style-1 {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 800px) {
+  .navbar-light-style-1-inner {
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
